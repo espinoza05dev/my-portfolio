@@ -8,16 +8,22 @@ export default function App() {
  const projects = [
     {
       title: "Mechanography Desktop Application",
-      description: "A desktop application for typing practice with customizable lessons and progress tracking.",
-      image: "https://picsum.photos/400/300?random=1",
+      description: "A desktop application for typing practice with different type of lessons and progress tracking.",
+      image: "\resources\mechanography.png",          
       tags: ["C#", "SQLServer", "Windows Forms"],
     },
     {
       title: "Accounting System Application",
       description: "A desktop accounting system for managing financial transactions, invoicing.",
-      image: "https://picsum.photos/400/300?random=2",
+      image: "\resources\system_account.png",
       tags: ["C#", "SQLServer", "Windows Forms"],
     },
+    {
+      title: "Voice Assistant",
+      description: "A Desktop Assistan that uses voice commands to perform tasks like searching the web,telling jokes, and more.",
+      image: "\resources\voice_assistant.png",
+      tags: ["Python", "Speech Recognition"],
+    }
   ];
 
   return (
@@ -125,7 +131,7 @@ export default function App() {
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">My Projects</h2>
               <div className="w-16 h-1 bg-indigo-600 rounded-full mx-auto"></div>
               <p className="mt-4 text-gray-600 max-w-lg mx-auto">
-                Here are some of my recent work examples. Each project represents my commitment to quality and attention to detail.
+                Here are some of my work examples. Each project represents my commitment to quality and attention to detail.
               </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
