@@ -9,19 +9,19 @@ export default function App() {
     {
       title: "Mechanography Desktop Application",
       description: "A desktop application for typing practice with different type of lessons and progress tracking.",
-      image: "\resources\mechanography.png",          
+      image: "/resources/mechanography.png",          
       tags: ["C#", "SQLServer", "Windows Forms"],
     },
     {
       title: "Accounting System Application",
       description: "A desktop accounting system for managing financial transactions, invoicing.",
-      image: "\resources\system_account.png",
+      image: "/resources/system_account.png",
       tags: ["C#", "SQLServer", "Windows Forms"],
     },
     {
       title: "Voice Assistant",
       description: "A Desktop Assistan that uses voice commands to perform tasks like searching the web,telling jokes, and more.",
-      image: "\resources\voice_assistant.png",
+      image: "/resources/voice_assistant.png",
       tags: ["Python", "Speech Recognition"],
     }
   ];
