@@ -144,7 +144,7 @@ export default function App() {
                     <img 
                       src={project.image} 
                       alt={project.title} 
-                      className="w-full h-64 object-cover transform group-hover:scale-105 transition-transform duration-500"
+                      className="w-full h-64 object-contain transform group-hover:scale-105 transition-transform duration-500"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
                       <div className="p-6">
