@@ -23,6 +23,12 @@ export default function App() {
       description: "A Desktop Assistan that uses voice commands to perform tasks like searching the web,telling jokes, and more.",
       image: "/resources/voice_assistant.png",
       tags: ["Python", "Speech Recognition"],
+    },
+    {
+      title: "Basic Chatbot",
+      description: "A simple chatbot that can answer basic questions and provide information.",
+      image: "/resources/BasicChatbot.png",
+      tags: ["Python", "Natural Language Processing"],
     }
   ];
 
